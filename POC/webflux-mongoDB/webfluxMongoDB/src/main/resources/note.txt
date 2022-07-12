@@ -1,0 +1,11 @@
+mongo query:
+
+-find by Id
+db.customer_profile.find( {_id : ObjectId("62c29a2d69b00e6f36d059c3")} )
+db.customer_profile.find( {_id : ObjectId("62c29a2e69b00e6f36d059c4")} )
+
+-find with limit
+db.customer_profile.find().limit(1)
+
+- cpu vs ram :
+    : extivity monitor
